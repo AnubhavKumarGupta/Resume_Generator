@@ -9,6 +9,9 @@
 - **User Input Form:** Fill out personal details, educational background, work experience, and skills.
 - **Resume Generation:** Generate and download resumes in PDF format.
 - **Profile Management:** View and manage a list of all profiles.
+- **Responsive Design:** User-friendly interface compatible with multiple devices.
+- **PDF Export:** High-quality CVs generated in a printable PDF format.
+- **Admin Dashboard:** Centralized management of user profiles.
 
 
 ## Installation
