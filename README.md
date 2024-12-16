@@ -15,12 +15,12 @@
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/AnubhavKumarGupta/Resume_Generator
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd cv-generator
+   cd myproject
    ```
 
 3. Create and activate a virtual environment:
@@ -59,7 +59,7 @@
 ## Project Structure
 
 ```plaintext
-cv_generator/
+myproject/
 ├── pdf/                # App folder
 │   ├── templates/pdf/  # HTML templates for CV generation
 │   │   ├── accept.html # Form to accept user input
@@ -72,12 +72,6 @@ cv_generator/
 ├── manage.py           # Django management tool
 ```
 
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
 
 ## Contributions
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
