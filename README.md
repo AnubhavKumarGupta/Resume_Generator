@@ -1,8 +1,9 @@
 # Resume_Generator
 
-
+## Overview
 - A Django-based web application for creating, saving, and downloading professional CVs in PDF format.
-- Users can input their details, preview their CV, and download it, while administrators can view and manage the list of generated CVs.
+- Users can enter their personal and professional details through a web form, which the application uses to generate a downloadable CV in PDF format.
+- The application also provides an admin interface to view and manage profiles efficiently.
 
 
 ## Features
@@ -14,8 +15,14 @@
 - **Admin Dashboard:** Centralized management of user profiles.
 
 
-## Technologies Used
+## How It Works
+- Users fill out a form with their personal, educational, and professional details.
+- Submitted data is stored in the database as a profile.
+- Users can view a list of profiles and download any CV in PDF format.
+- PDF files are generated dynamically using the pdfkit library and Django templates.
 
+
+## Technologies Used
 - **Frontend:** HTML5, CSS3 (Bootstrap 4)
 - **Backend:** Django Framework
 - **Database:** SQLite
@@ -23,6 +30,14 @@
 - **Template Engine:** Django Templates
 
 
+## Requirements
+To run this project, you need:
+
+- Python 3.10+
+- Django 4.2+
+- pdfkit library
+- wkhtmltopdf (for PDF generation)
+- Bootstrap 5 (for frontend styling)
 
 
 ## Installation
@@ -61,13 +76,14 @@
 
 ---
 
-## Usage
+## How to Use
 
-1. Open your browser and navigate to `http://127.0.0.1:8000/`.
+1. Open your browser and navigate to http://127.0.0.1:8000/.
 2. Fill out the form on the homepage to create your CV.
-3. View and download your CV in PDF format.
-4. Access the list of profiles at `http://127.0.0.1:8000/list/`.
-
+3. After submitting the form, you can download the generated CV in PDF format.
+4. To view all generated profiles, navigate to http://127.0.0.1:8000/list/.
+5. Administrators can manage profiles via the admin panel at http://127.0.0.1:8000/admin/.
+   
 ---
 
 ## Project Structure
