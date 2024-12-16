@@ -14,6 +14,17 @@
 - **Admin Dashboard:** Centralized management of user profiles.
 
 
+## Technologies Used
+
+- **Frontend:** HTML5, CSS3 (Bootstrap 4)
+- **Backend:** Django Framework
+- **Database:** SQLite
+- **PDF Generation:** pdfkit library
+- **Template Engine:** Django Templates
+
+
+
+
 ## Installation
 
 1. Clone the repository:
